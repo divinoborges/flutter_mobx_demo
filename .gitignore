@@ -9,6 +9,7 @@
 .history
 .svn/
 web/
+**/*.g.dart
 
 # IntelliJ related
 *.iml
