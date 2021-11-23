@@ -1,16 +1,46 @@
-# flutter_mobx_demo
 
-A new Flutter application.
+# Flutter MobX
 
-## Getting Started
+A demonstration of using MobX
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Run Locally
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Clone the project
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+  git clone https://github.com/divinoborges/flutter_mobx_demo.git
+```
+
+Go to the project directory
+
+```bash
+  cd flutter_mobx_demo
+```
+
+Install dependencies
+
+```bash
+  flutter pub get
+```
+
+Generate MobX code
+```bash
+flutter packages pub run build_runner build
+```
+
+Running the app
+
+```bash
+  flutter run
+```
+
+
+## Running Tests
+
+To run tests, run the following command
+
+```bash
+  flutter test
+```
+
